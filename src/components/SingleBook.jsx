@@ -25,7 +25,7 @@ class SingleBook extends Component {
           }`}
         >
           <img src={this.props.img} alt="bookimage" className="h-60 rounded" />
-          <h2 className="font-bold ">{this.props.title}</h2>
+          <h2 className="font-bold truncate">{this.props.title}</h2>
           <p>
             Categoria: <strong>{this.props.category}</strong>
           </p>
